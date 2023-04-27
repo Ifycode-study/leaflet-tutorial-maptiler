@@ -6,7 +6,7 @@ Youtube playlist link: https://www.youtube.com/playlist?list=PLGHe6Moaz52PUNP4Dt
 
 Progress:
 - [x] Video 1: Create a map with a marker using Javascript
-- [ ] Video 2: Circles, polygons and popups with Javascript
+- [x] Video 2: Circles, polygons and popups with Javascript
 - [ ] Video 3
 - [ ] Video 4
 - [ ] Video 5
