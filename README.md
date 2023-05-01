@@ -10,5 +10,5 @@ Progress:
 - [x] Video 3: Change marker icon, add shadow
 - [x] Video 4: Multiple icon definition using JavaScript
 - [ ] Video 5: Add GeoJSON using JavaScript (watched this only not tried yet)
-- [ ] Video 6
+- [x] Video 6: Add scale and watermark
 - [ ] Video 7

@@ -40,6 +40,30 @@ let marker1 = L.marker([51.5, -0.08], {icon: greenIcon}).addTo(map);
 let marker2 = L.marker([51.5, -0.09], {icon: redIcon}).addTo(map);
 let marker3 = L.marker([51.5, -0.10], {icon: orangeIcon}).addTo(map);
 
+//=== The scale and Watermark works when added before the circle and polygon code
+L.control.scale({
+  metric: true,
+  imperial: false,
+  position: 'topright'
+}).addTo(map);
+
+L.Control.Watermark = L.Control.extend({
+  onAdd: function(map) {
+    let img = L.DomUtil.create('img');
+    img.src = 'img/leaf-green.png';
+    img.style.width = '50px';
+    return img;
+  },
+  onRemove: function(map) {},
+});
+
+L.control.watermark = function(opts) {
+  return new L.Control.Watermark(opts);
+}
+
+L.control.watermark().addTo(map);
+//===
+
 let circle = L.circle([51.508, -0.11], {
   color: 'red',
   fillColor: '#f03',
