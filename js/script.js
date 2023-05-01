@@ -7,7 +7,16 @@ L.tileLayer('https://api.maptiler.com/maps/streets-v2/{z}/{x}/{y}.png?key=Hhso0s
   attribution: '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
 }).addTo(map);
 
-let marker = L.marker([51.5, -0.09]).addTo(map);
+let leafletIcon = L.icon({
+  iconUrl: 'https://leafletjs.com/examples/custom-icons/leaf-green.png',
+  shadowUrl: 'https://leafletjs.com/examples/custom-icons/leaf-shadow.png',
+  iconSize: [38, 95],
+  iconAnchor: [22, 94],
+  shadowAnchor: [4, 62],
+  popupAnchor: [12, -90]
+});
+
+let marker = L.marker([51.5, -0.09], {icon: leafletIcon}).addTo(map);
 
 let circle = L.circle([51.508, -0.11], {
   color: 'red',
