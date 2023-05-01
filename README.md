@@ -8,7 +8,7 @@ Progress:
 - [x] Video 1: Create a map with a marker using Javascript
 - [x] Video 2: Circles, polygons and popups with Javascript
 - [x] Video 3: Change marker icon, add shadow
-- [ ] Video 4
+- [x] Video 4: Multiple icon definition using JavaScript
 - [ ] Video 5
 - [ ] Video 6
 - [ ] Video 7
