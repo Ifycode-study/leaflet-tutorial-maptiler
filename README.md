@@ -9,6 +9,6 @@ Progress:
 - [x] Video 2: Circles, polygons and popups with Javascript
 - [x] Video 3: Change marker icon, add shadow
 - [x] Video 4: Multiple icon definition using JavaScript
-- [ ] Video 5: Add GeoJSON using JavaScript (watched this only not tried yet)
+- [x] Video 5: Add GeoJSON using JavaScript (watched this only not tried yet)
 - [x] Video 6: Add scale and watermark
-- [ ] Video 7
+- [x] Video 7: Add geocoding search (watched this only not tried yet)
